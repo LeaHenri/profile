@@ -1,0 +1,97 @@
+body{
+  background-color: #FCF5ED;
+  font-family:"Lora", serif;
+  color: black;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+h1, h2{
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  color: #E82561;
+}
+h1{
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+h2{
+  font-size: 25px;
+  line-height: 45px;
+  font-weight: 400;
+}
+
+a{
+  color: #B3D8A8;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 10px #B3D8A8;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.img-circle {
+  border-radius: 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.pink-button {
+  background-color: #C30E59;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Roboto", serif;
+}
+
+.fa-brands {
+  font-size: 40px;
+  color: #E6D9A2;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+}
